@@ -11,3 +11,12 @@ const person = new Object();
 
 //Array Info
 
+const fruits = ["Apple", "Banana", "Grapes"];
+
+const fruitList = document.getElementById("fruit-list");
+
+fruits.forEach(fruit => {
+  const li = document.createElement("li");
+  li.textContent = fruit;
+  fruitList.appendChild(li);
+});
