@@ -20,3 +20,8 @@ fruits.forEach(fruit => {
   li.textContent = fruit;
   fruitList.appendChild(li);
 });
+
+function addFruit() {
+  fruits.push("");
+  updateList();
+}
