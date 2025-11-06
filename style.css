@@ -1,9 +1,13 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(28, 29, 104);
 }
 
 h1, h2 {
     text-align: center;
+}
+
+h1, h2, p, ul {
+    color: white;
 }
 
 p {
